@@ -1,0 +1,86 @@
+nav{
+    background-color: black !important;
+}
+.contact-section{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    padding: 8rem;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    color: #242424;
+    background-color: transparent;
+}
+.contact-section-background{
+    background-image: url("/images/contact-background.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+
+}
+
+.contact-section h2{
+    font-weight: 700px;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    color: #242424;
+}
+
+.contact-section p{
+    text-align: center;
+    margin-bottom: 0.4rem;
+    color: #242424;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    background-color: rgb(250, 245, 245);
+    /* box-shadow:;                              => not implement yet   */
+    padding: 1.1rem 3.3rem;
+    border: 1.4px solid #ccc;
+    border-radius: 1.4rem;
+    
+}
+
+.contact-form label{
+    font-weight: 600;
+    margin-bottom: 0.1rem;
+    color: #242424;
+}
+
+.contact-form input[type = "text"],
+.contact-form input[type = "email"],
+.contact-form textarea{
+
+    padding: 0.1rem;
+    border: 1.5px solid #ccc;
+    border-radius: 0.5rem;
+    transition: border 0.3s ease;
+
+    
+    
+}
+
+.contact-form input[type = "text"]:focus,
+.contact-form input[type = "email"]:focus,
+.contact-form textarea:focus{
+
+    border-color: #f9e507;
+    outline: none;
+
+
+}
+
+.contact-form button{
+    background-color: 007bff;
+    cursor: pointer;
+    border-radius: 1.2rem;
+    padding: 0.1rem;
+}
+
+.contact-form button:hover{
+background-color: #f9e507;
+}
