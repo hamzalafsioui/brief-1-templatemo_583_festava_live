@@ -37,10 +37,13 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
-    background-color: rgb(250, 245, 245);
-    /* box-shadow:;                              => not implement yet   */
+    /* background-color: rgb(250, 245, 245); */
+    background: #696865;
+    background: linear-gradient(186deg, rgba(105, 104, 101, 1) 31%, rgba(52, 53, 53, 1) 73%, rgba(44, 46, 46, 1) 86%, rgba(35, 38, 38, 1) 100%);
+    
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
     padding: 1.1rem 3.3rem;
-    border: 1.4px solid #ccc;
+    border: 1.1px solid #645f5f;
     border-radius: 1.4rem;
     
 }
