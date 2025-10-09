@@ -373,6 +373,13 @@ strong {
   font-size: var(--h5-font-size);
   font-weight: var(--font-weight-bold);
 }
+/* update logo */
+.navbar-logo {
+    max-height: 80px;
+    height: auto;
+    width: auto;
+    
+}
 
 .navbar-expand-lg .navbar-nav .nav-link {
   border-radius: var(--border-radius-large);
